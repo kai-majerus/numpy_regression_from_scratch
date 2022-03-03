@@ -11,19 +11,18 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
 ![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
 
-<!-- Describe your project in brief -->
+This aim of this project is to build multiple regression models from scratch using NumPy rather than scikit-learn. I hope to improve my understanding of 4 regression models (namely, Linear Regression, Ridge Regression, Lasso Regression and Decision Tree Regression) and OOP in doing so.
 
-<!-- The project title should be self explanotory and try not to make it a mouthful. (Although exceptions exist- **awesome-readme-writing-guide-for-open-source-projects** - would have been a cool name)
+The dataset that I will be using is a small dataset of football players with 12 feature variables and a target variable of the players 'score'.
+
+Tech stack
+* Language - Python
+* Libraries - Pandas, NumPy
 
 # Demo-Preview
+[(Back to top)](#table-of-contents)
 
-<!-- Add a demo for your project -->
-
-<!-- After you have written about your project, it is a good idea to have a demo/preview(**video/gif/screenshots** are good options) of your project so that people can know what to expect in your project. You could also add the demo in the previous section with the product description.
-
-Here is a random GIF as a placeholder.
-
-![Random GIF](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif) -->
+To Add
 
 # Table of contents
 
@@ -37,11 +36,6 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 - [Installation](#installation)
 - [Development](#development)
 - [Footer](#footer)
-
-# Demo-Preview
-[(Back to top)](#table-of-contents)
-
-To Add
 
 # Installation
 [(Back to top)](#table-of-contents)
@@ -113,13 +107,6 @@ numpy_regression_from_scratch-run
 [(Back to top)](#table-of-contents)
 
 To Add
-<!-- This is the place where you give instructions to developers on how to modify the code.
-
-You could give **instructions in depth** of **how the code works** and how everything is put together.
-
-You could also give specific instructions to how they can setup their development environment.
-
-Ideally, you should keep the README simple. If you need to add more complex explanations, use a wiki. Check out [this wiki](https://github.com/navendu-pottekkat/nsfw-filter/wiki) for inspiration. -->
 
 # Footer
 [(Back to top)](#table-of-contents)
