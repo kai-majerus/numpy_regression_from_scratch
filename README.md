@@ -33,13 +33,13 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 - [Project Title](#regression-from-scratch)
 - [Demo-Preview](#demo-preview)
 - [Table of contents](#table-of-contents)
+- [Startup the project](#startup-the-project)
 - [Installation](#installation)
 - [Development](#development)
 - [Footer](#footer)
 
-# Installation
+# Startup the project
 [(Back to top)](#table-of-contents)
-
 The initial setup.
 
 Create virtualenv and install the project:
@@ -75,6 +75,9 @@ mkdir tmp
 cd tmp
 numpy_regression_from_scratch-run
 ```
+
+# Installation
+[(Back to top)](#table-of-contents)
 
 Go to `https://github.com/{group}/numpy_regression_from_scratch` to see the project, manage issues,
 setup you ssh public key, ...
