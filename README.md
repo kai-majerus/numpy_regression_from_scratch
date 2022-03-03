@@ -38,6 +38,11 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 - [Development](#development)
 - [Footer](#footer)
 
+# Demo-Preview
+[(Back to top)](#table-of-contents)
+
+To Add
+
 # Installation
 [(Back to top)](#table-of-contents)
 
@@ -107,6 +112,7 @@ numpy_regression_from_scratch-run
 # Development
 [(Back to top)](#table-of-contents)
 
+To Add
 <!-- This is the place where you give instructions to developers on how to modify the code.
 
 You could give **instructions in depth** of **how the code works** and how everything is put together.
