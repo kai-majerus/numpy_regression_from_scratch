@@ -13,7 +13,7 @@
 
 This aim of this project is to build multiple regression models from scratch using NumPy rather than scikit-learn. I hope to improve my understanding of 4 regression models (namely, Linear Regression, Ridge Regression, Lasso Regression and Decision Tree Regression) and OOP in doing so.
 
-The dataset that I will be using is a small dataset of football players with 12 feature variables and a target variable of the players 'score'.
+The dataset that I will be using is a small dataset of ~ 200 football players with 12 feature variables and a target variable of the players 'score'.
 
 Tech stack
 * Language - Python
