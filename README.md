@@ -55,7 +55,7 @@ Here is a random GIF as a placeholder.
 
 Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README. -->
 
-- [Project Title](#Regression From Scratch)
+- [Project Title](#regression-from-scratch)
 - [Demo-Preview](#demo-preview)
 - [Table of contents](#table-of-contents)
 - [Installation](#installation)
