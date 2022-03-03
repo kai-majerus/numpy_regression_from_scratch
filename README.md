@@ -116,13 +116,4 @@ Ideally, you should keep the README simple. If you need to add more complex expl
 
 # Footer
 [(Back to top)](#table-of-contents)
-
-<!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
-
-Let's make it an image because by now you have realised that multimedia in images == cool(*please notice the subtle programming joke). -->
-
-Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
-
-<!-- Add the footer here -->
-
-<!-- ![Footer](https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png) -->
+![Footer](https://github.com/kai-majerus/numpy_regression_from_scratch/blob/master/footer_video.mp4)
