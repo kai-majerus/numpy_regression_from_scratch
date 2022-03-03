@@ -117,6 +117,6 @@ Ideally, you should keep the README simple. If you need to add more complex expl
 # Footer
 [(Back to top)](#table-of-contents)
 
-![Footer](https://user-images.githubusercontent.com/53292276/156607487-2e0af99b-de38-4f9a-b302-0cf2a828bb15.mp4)
+![footer_video](https://user-images.githubusercontent.com/53292276/156608882-fd58c52c-6aec-4710-9544-54529ba4eba0.gif)
 
 
