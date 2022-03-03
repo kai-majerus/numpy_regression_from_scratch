@@ -1,5 +1,6 @@
 <!-- Add banner here -->
-![Banner](https://github.com/kai-majerus/numpy_regression_from_scratch/blob/master/banner.jpg)
+![Red and Black Thompson Soccer Club Logo](https://user-images.githubusercontent.com/53292276/156609919-ca361c36-85d4-46f0-81c0-ace4919d139d.png)
+
 
 # Regression From Scratch
 
