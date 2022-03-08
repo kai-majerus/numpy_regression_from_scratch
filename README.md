@@ -107,11 +107,11 @@ numpy_regression_from_scratch-run
 # Development
 [(Back to top)](#table-of-contents)
 
-`Regression_Module
-|-- raw_data
+Regression_Module
+- raw_data
     -- EPL_Soccer_MLR_LR
-|-- numpy_regression_from_scratch
-        -- DataPreparation.py
+- numpy_regression_from_scratch
+    -- DataPreparation.py
         -- metrics.py
         -- LinearRegression.py
         -- LassoRegression.py
