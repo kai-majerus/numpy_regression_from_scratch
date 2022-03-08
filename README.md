@@ -107,7 +107,7 @@ numpy_regression_from_scratch-run
 # Development
 [(Back to top)](#table-of-contents)
 
-Regression_Module
+`Regression_Module
 |-- raw_data
     -- EPL_Soccer_MLR_LR
 |-- numpy_regression_from_scratch
@@ -128,8 +128,7 @@ Regression_Module
 |-- Makefile
 |-- README.MD
 |-- requirements.txt
-|-- setup.py
-```
+|-- setup.py`
 
 # Footer
 [(Back to top)](#table-of-contents)
