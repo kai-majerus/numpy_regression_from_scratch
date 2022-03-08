@@ -22,13 +22,11 @@ Tech stack
 # Demo-Preview
 [(Back to top)](#table-of-contents)
 
-To Add
+Follow the setup/installation instructions below to install the package and then run the command `numpy_regression_from_scratch-run`. This will run main.py, which trains and saves a model for each of linear, lasso, ridge and tree regression. The output will be the MSE and R2 Score of each model (see example output below). 
+
+![image](https://user-images.githubusercontent.com/53292276/157235956-89a91ace-41ca-4797-bbc6-9bf307e1df5c.png)
 
 # Table of contents
-
-<!-- After you have introduced your project, it is a good idea to add a **Table of contents** or **TOC** as **cool** people say it. This would make it easier for people to navigate through your README and find exactly what they are looking for.
-
-Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README. -->
 
 - [Project Title](#regression-from-scratch)
 - [Demo-Preview](#demo-preview)
@@ -109,11 +107,31 @@ numpy_regression_from_scratch-run
 # Development
 [(Back to top)](#table-of-contents)
 
-To Add
+Regression_Module
+|-- raw_data
+    -- EPL_Soccer_MLR_LR
+|-- numpy_regression_from_scratch
+        -- DataPreparation.py
+        -- metrics.py
+        -- LinearRegression.py
+        -- LassoRegression.py
+        -- RidgeRegression.py
+        -- RegressionTree.py
+        -- main.py
+    |-- data
+        | -- Models
+            -- lasso_model.pkl
+            -- linear_model.pkl
+            -- ridge_model.pkl
+|-- scripts
+    -- numpy_regression_from_scratch-run
+|-- Makefile
+|-- README.MD
+|-- requirements.txt
+|-- setup.py
+```
 
 # Footer
 [(Back to top)](#table-of-contents)
 
 ![footer_video](https://user-images.githubusercontent.com/53292276/156608882-fd58c52c-6aec-4710-9544-54529ba4eba0.gif)
-
-
