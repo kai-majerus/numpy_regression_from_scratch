@@ -109,9 +109,9 @@ numpy_regression_from_scratch-run
 
 Regression_Module
 - raw_data
-    -- EPL_Soccer_MLR_LR
+- -- EPL_Soccer_MLR_LR
 - numpy_regression_from_scratch
-    -- DataPreparation.py
+-   DataPreparation.py
         -- metrics.py
         -- LinearRegression.py
         -- LassoRegression.py
