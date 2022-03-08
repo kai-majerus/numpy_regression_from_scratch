@@ -4,13 +4,6 @@
 
 # Regression From Scratch
 
-<!-- Add buttons here -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)
-![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
-![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
-
 This aim of this project is to build multiple regression models from scratch using NumPy rather than scikit-learn. I hope to improve my understanding of 4 regression models (namely, Linear Regression, Ridge Regression, Lasso Regression and Decision Tree Regression) and OOP in doing so.
 
 The dataset that I will be using is a small dataset of ~ 200 football players with 12 feature variables and a target variable of the players 'score'.
