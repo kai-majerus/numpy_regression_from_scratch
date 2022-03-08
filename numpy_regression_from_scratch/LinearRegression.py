@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from termcolor import colored
 from numpy_regression_from_scratch.DataPreparation import data_preprocessing
 from numpy_regression_from_scratch.metrics import mean_squared_error, r2_score
 
@@ -44,8 +45,8 @@ class LinearRegression:
         linear_predict = self.predict(X_test)
 
         # Metrics
-        print("MSE of Linear Model : ", mean_squared_error(y_test, linear_predict))
-        print("R2 Score of Linear Model : ", r2_score(y_test, linear_predict))
+        print(colored((f"MSE of Linear Model : {mean_squared_error(y_test, linear_predict)}"), "yellow"))
+        print(colored((f"R2 Score of Linear Model : {r2_score(y_test, linear_predict)}"), "yellow"))
 
 
 

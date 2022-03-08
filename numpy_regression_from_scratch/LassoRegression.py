@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from termcolor import colored
 from numpy_regression_from_scratch.DataPreparation import data_preprocessing
 from numpy_regression_from_scratch.metrics import mean_squared_error, r2_score
 
@@ -45,8 +46,8 @@ class LassoRegression:
         lasso_predict = self.predict(X_test)
 
         # Metrics
-        print("MSE of Lasso Model : ", mean_squared_error(y_test, lasso_predict))
-        print("R2 Score of Linear Model : ", r2_score(y_test, lasso_predict))
+        print(colored((f"MSE of Lasso Model : {mean_squared_error(y_test, lasso_predict)}"), "green"))
+        print(colored((f"R2 Score of Linear Model : {r2_score(y_test, lasso_predict)}"), "green"))
 
 if __name__ == '__main__':
     csv_path = 'raw_data/EPL_Soccer_MLR_LR.csv'
