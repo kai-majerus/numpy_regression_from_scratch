@@ -33,7 +33,6 @@ Follow the setup/installation instructions below to install the package and then
 - [Table of contents](#table-of-contents)
 - [Startup the project](#startup-the-project)
 - [Installation](#installation)
-- [Development](#development)
 - [Footer](#footer)
 
 # Startup the project
@@ -103,32 +102,6 @@ mkdir tmp
 cd tmp
 numpy_regression_from_scratch-run
 ```
-
-# Development
-[(Back to top)](#table-of-contents)
-
-Regression_Module
-- raw_data
-- -- EPL_Soccer_MLR_LR
-- numpy_regression_from_scratch
--   DataPreparation.py
-        -- metrics.py
-        -- LinearRegression.py
-        -- LassoRegression.py
-        -- RidgeRegression.py
-        -- RegressionTree.py
-        -- main.py
-    |-- data
-        | -- Models
-            -- lasso_model.pkl
-            -- linear_model.pkl
-            -- ridge_model.pkl
-|-- scripts
-    -- numpy_regression_from_scratch-run
-|-- Makefile
-|-- README.MD
-|-- requirements.txt
-|-- setup.py`
 
 # Footer
 [(Back to top)](#table-of-contents)
