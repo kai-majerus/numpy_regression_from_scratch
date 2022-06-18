@@ -46,13 +46,24 @@ class LassoRegression:
         lasso_predict = self.predict(X_test)
 
         # Metrics
-        print(colored((f"MSE of Lasso Model : {mean_squared_error(y_test, lasso_predict)}"), "green"))
-        print(colored((f"R2 Score of Linear Model : {r2_score(y_test, lasso_predict)}"), "green"))
+        print(
+            colored(
+                (f"MSE of Lasso Model : {mean_squared_error(y_test, lasso_predict)}"),
+                "green",
+            )
+        )
+        print(
+            colored(
+                (f"R2 Score of Linear Model : {r2_score(y_test, lasso_predict)}"),
+                "green",
+            )
+        )
 
-if __name__ == '__main__':
-    csv_path = 'raw_data/EPL_Soccer_MLR_LR.csv'
+
+if __name__ == "__main__":
+    csv_path = "raw_data/EPL_Soccer_MLR_LR.csv"
 
     # lr = learning rate
     # n_iter = no. of iterations
-    lasso_model = LassoRegression(alpha=0.03, lr=.00001, n_iter=100, csv_path=csv_path)
+    lasso_model = LassoRegression(alpha=0.03, lr=0.00001, n_iter=100, csv_path=csv_path)
     lasso_model.LR_main()

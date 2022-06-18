@@ -27,7 +27,9 @@ class RidgeRegression:
             y_pred = self.predict(X)
 
             # compute gradients
-            dW = (-(2 * np.dot(X.T, (y - y_pred))) + (2 * self.alpha * self.weights)) / n_samples
+            dW = (
+                -(2 * np.dot(X.T, (y - y_pred))) + (2 * self.alpha * self.weights)
+            ) / n_samples
             db = -2 * np.sum(y_pred - y) / n_samples
 
             # update parameters
@@ -46,14 +48,23 @@ class RidgeRegression:
         ridge_predict = self.predict(X_test)
 
         # Metrics
-        print(colored((f"MSE of Ridge Model : {mean_squared_error(y_test, ridge_predict)}"), "red"))
-        print(colored((f"R2 Score of Ridge Model: {r2_score(y_test, ridge_predict)}"), "red"))
+        print(
+            colored(
+                (f"MSE of Ridge Model : {mean_squared_error(y_test, ridge_predict)}"),
+                "red",
+            )
+        )
+        print(
+            colored(
+                (f"R2 Score of Ridge Model: {r2_score(y_test, ridge_predict)}"), "red"
+            )
+        )
 
 
-if __name__ == '__main__':
-    csv_path = 'raw_data/EPL_Soccer_MLR_LR.csv'
+if __name__ == "__main__":
+    csv_path = "raw_data/EPL_Soccer_MLR_LR.csv"
 
     # lr = learning rate
     # n_iter = no. of iterations
-    ridge_model = RidgeRegression(alpha=0.03, lr=.00001, n_iter=100, csv_path=csv_path)
+    ridge_model = RidgeRegression(alpha=0.03, lr=0.00001, n_iter=100, csv_path=csv_path)
     ridge_model.RR_main()
